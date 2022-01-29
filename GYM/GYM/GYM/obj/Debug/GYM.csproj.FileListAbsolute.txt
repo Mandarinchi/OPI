@@ -17,3 +17,5 @@ D:\GYM\GYM\GYM\obj\Debug\Trenier.g.cs
 D:\GYM\GYM\GYM\obj\Debug\Trenier.baml
 D:\GYM\GYM\GYM\obj\Debug\Kli.g.cs
 D:\GYM\GYM\GYM\obj\Debug\Kli.baml
+D:\GYM\GYM\GYM\obj\Debug\Window1.g.cs
+D:\GYM\GYM\GYM\obj\Debug\Window1.baml

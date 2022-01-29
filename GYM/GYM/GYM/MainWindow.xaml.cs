@@ -131,19 +131,19 @@ namespace GYM
                 //per = Convert.ToString(dtbase.Rows[i][2]);
                 if (id == Convert.ToInt32(dtbase1.Rows[i][4]))
                 {
-                    //for (int ii = 0; ii < dtbase1.Rows.Count; ii++)
-                    //{
-                        
-                           {
-                                List<Klient> klients = new List<Klient>
+                    
+
+                    {
+                        List<Klient> klients = new List<Klient>
                         {
 
-                        new Klient {Id = Convert.ToInt32(dtbase1.Rows[i][0]),  Age = Convert.ToInt32(dtbase1.Rows[i][1]), FIO = Convert.ToString(dtbase1.Rows[i][2]), Gender = Convert.ToString(dtbase1.Rows[i][3])}};
+                        new Klient {Id = Convert.ToInt32(dtbase1.Rows[i][0]),  Age = Convert.ToInt32(dtbase1.Rows[i][1]), FIO = Convert.ToString(dtbase1.Rows[i][2]), Gender = Convert.ToString(dtbase1.Rows[i][3])}
+                        };
 
-                                Klients.Items.Add(klients);
-                            }
+                        Klients.Items.Add(klients);
+                    }
                         
-                    //}
+                    
                 }
             }
            
@@ -194,6 +194,21 @@ namespace GYM
 
             }
 
+        }
+
+        private void Button_Click_4(object sender, RoutedEventArgs e)
+        {
+            Window1 s = new Window1();
+            this.Hide();
+            s.ShowDialog();
+            //DataTable dtbase = Select("SELECT * FROM [dbo].[Boss_of_the_GYM]");
+            //SqlConnection con = new SqlConnection(connection_string);
+            //con.Open();
+            //string das = "DELETE  FROM [dbo].[Boss_of_the_GYM] WHERE IDD_OF_Boss_of_the_GYM=1";
+            //SqlCommand cmd = new SqlCommand(das, con);
+            //cmd.ExecuteNonQuery();
+            //con.Close();
+            //MessageBox.Show("Успешное удаление", "Сообщение", MessageBoxButton.OK, MessageBoxImage.Asterisk);
         }
     }
 }
