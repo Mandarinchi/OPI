@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GYM"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="462.8" Width="798.4">
     <Grid>
         <ListView x:Name="BOSS" HorizontalAlignment="Left" Height="315" Margin="10,10,0,0" VerticalAlignment="Top" Width="379" SelectionChanged="BOSS_SelectionChanged">
             <ListView.View>
@@ -27,12 +27,13 @@
                 </GridView>
             </ListView.View>
         </ListView>
-        <TextBox x:Name="Search" HorizontalAlignment="Left" Height="23" Margin="108,349,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="234"/>
-        <Label Content="Поиск мастера:" HorizontalAlignment="Left" Margin="10,346,0,0" VerticalAlignment="Top"/>
-        <Button Content="ОК" HorizontalAlignment="Left" Margin="267,377,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
-        <Button Content="Добавить тренера" HorizontalAlignment="Left" Margin="665,334,0,0" VerticalAlignment="Top" Width="119" Click="Button_Click_2"/>
-        <Button Content="Добавить клиента" HorizontalAlignment="Left" Margin="665,357,0,0" VerticalAlignment="Top" Width="119" Click="Button_Click_1"/>
-        <Button Content="Обновить" HorizontalAlignment="Left" Margin="709,391,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_3"/>
+        <TextBox x:Name="Search" HorizontalAlignment="Left" Height="23" Margin="109,361,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="234"/>
+        <Label Content="Поиск мастера:" HorizontalAlignment="Left" Margin="11,358,0,0" VerticalAlignment="Top"/>
+        <Button Content="ОК" HorizontalAlignment="Left" Margin="268,389,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Button Content="Добавить тренера" HorizontalAlignment="Left" Margin="665,326,0,0" VerticalAlignment="Top" Width="119" Click="Button_Click_2"/>
+        <Button Content="Добавить клиента" HorizontalAlignment="Left" Margin="665,349,0,0" VerticalAlignment="Top" Width="119" Click="Button_Click_1"/>
+        <Button Content="Обновить" HorizontalAlignment="Left" Margin="709,404,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_3"/>
+        <Button Content="Удалить тренера" HorizontalAlignment="Left" Margin="665,373,0,0" VerticalAlignment="Top" Width="117" Height="18" Click="Button_Click_4"/>
 
     </Grid>
 </Window>
